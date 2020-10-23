@@ -29,3 +29,12 @@
 ion-content ion-toolbar {
   --background: translucent;
 }
+
+img {
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px gray;
+}
+
+ion-card {
+    box-shadow: 0 0 5px gray;
+}

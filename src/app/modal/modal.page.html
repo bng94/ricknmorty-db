@@ -1,0 +1,25 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title class="ion-text-center">
+          <h1>  <b> Character Details </b> </h1>
+        </ion-title>
+        <ion-buttons slot="end">
+            <ion-button (click)="close()">
+                <ion-icon slot="icon-only" name="close"></ion-icon>
+            </ion-button>
+        </ion-buttons>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-text-center">
+    <div>
+        <img src="{{ imageURL }}" height='40%' width='40%' />
+    </div>
+    <div>
+        <h2><b>Status:</b> {{ status }}</h2>
+        <h2><b>Species:</b> {{ species }}</h2>
+        <h2><b>Gender:</b> {{ gender }}</h2>
+        <h2><b>Origin:</b> {{ origin }}</h2>
+        <h2><b>Location:</b> {{ location }}</h2>
+    </div>
+</ion-content>
